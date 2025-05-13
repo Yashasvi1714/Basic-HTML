@@ -37,7 +37,6 @@ This repository contains multiple projects demonstrating different concepts in w
    - **Objective**: Manage users with a RESTful API for CRUD operations on a "users" table.
    - **Technologies**: Node.js, Express.js, MySQL, Body-Parser.
 
-## Installation Instructions
 
 ### Prerequisites
 Ensure that the following are installed:
@@ -45,58 +44,6 @@ Ensure that the following are installed:
 - **MySQL** (for the User Management API)
 - **Python** (for the Recipe Recommendation System)
 
-### 1. **Recipe Recommendation System**
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/Yashasvi1714/Web-Application-and-Recommendation-Systems.git
-     cd Web-Application-and-Recommendation-Systems/Recipe-Recommendation
-     ```
-   - Install required packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Run the Jupyter Notebook and execute the code to see the recommendation system in action.
-
-### 2. **Contact List Web Application**
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/Yashasvi1714/Web-Application-and-Recommendation-Systems.git
-     cd Web-Application-and-Recommendation-Systems/Contact-List-App
-     ```
-   - Open `index.html` in any modern browser to run the application.
-
-### 3. **User Validation Web Application**
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/Yashasvi1714/Web-Application-and-Recommendation-Systems.git
-     cd Web-Application-and-Recommendation-Systems/User-Validation-App
-     ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Run the application:
-     ```bash
-     node app.js
-     ```
-
-### 4. **User Management API**
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/Yashasvi1714/Web-Application-and-Recommendation-Systems.git
-     cd Web-Application-and-Recommendation-Systems/User-Management-API
-     ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Set up the MySQL database and configure it in `config.js`.
-   - Run the API:
-     ```bash
-     node app.js
-     ```
-
-## Conclusion
 
 This repository provides a diverse range of projects showcasing different skills, from building recommendation systems to developing interactive web applications and APIs. Each project demonstrates practical applications of popular technologies and frameworks, making it a useful resource for learning and reference.
 
