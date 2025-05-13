@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Contact List</h1>
+  <form id="contact-form">
+    <div>
+      <label for="name" class="bold">Name:</label>
+      <input type="text" id="name" placeholder="Name" required class="input-field">
+    </div>
+    <div>
+      <label for="email" class="bold">Email:</label>
+      <input type="email" id="email"placeholder="Email ID" required class="input-field">
+    </div>
+    <div>
+      <label for="city" class="bold">City:</label>
+      <input type="text" id="city" placeholder="City Name" required class="input-field">
+    </div>
+    <button type="button" onclick="addContact()" class="button add-contact">Add Contact</button>
+  </form>
+  <div class="gap"></div>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search by City">
+    <button type="button" id="search-button" onclick="searchByCity()">Search</button>
+  </div>
+  <table id="contact-table">
+    <thead>
+      <tr>
+        <th>Select</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>City</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody id="contact-table-body">
+      <tr>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="input-field" required></td>
+        <td><input type="email" class="input-field" required></td>
+        <td><input type="text" class="input-field" required></td>
+        <td><button class="button delete-button" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
